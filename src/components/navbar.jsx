@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+    const navigate = useNavigate()
     return (
         <nav className="w-full bg-black h-16">
             <div className=" w-full flex justify-between items-center py-1.5 px-2 md:px-4">
@@ -13,7 +14,10 @@ const Navbar = () => {
                     />
                 </Link>
                 <div className="flex items-center gap-4">
-                    <button className="bg-green-500 text-white px-4 py-1.5 md:py-2 rounded-lg text-sm md:text-base">
+                    <button  onClick={() => {
+    navigate("/roadmap");
+    window.scrollTo(0, 0); // Scrolls to the top
+}} className="bg-green-500 text-white px-4 py-1.5 md:py-2 rounded-lg text-sm md:text-base">
                         Buy YOBBO
                     </button>
                     <div className="flex text-white gap-2">

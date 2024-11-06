@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Community = () => {
+    const navigate = useNavigate()
     return (
         <section className="w-full  min-h-screen">
             <div className="w-full h-full px-7 py-8 md:px-10 lg:px-16 lg:py-16 md:py-10">
@@ -81,7 +83,13 @@ const Community = () => {
                             Our First Drop is inspired by the first game on our
                             platform - <strong>YOBBO</strong>!
                         </p>
-                        <button className="bg-green-500 text-white px-4 py-1.5 md:py-2 rounded-lg text-sm md:text-base">
+                        <button
+                            onClick={() => {
+    navigate("/roadmap");
+    window.scrollTo(0, 0); // Scrolls to the top
+}}
+                            className="bg-green-500 text-white px-4 py-1.5 md:py-2 rounded-lg text-sm md:text-base"
+                        >
                             Buy YOBBO
                         </button>
                     </div>

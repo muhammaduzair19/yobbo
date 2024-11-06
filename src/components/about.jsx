@@ -1,7 +1,9 @@
 import { ArrowDownCircle } from "lucide-react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+    const navigate = useNavigate();
     return (
         <section className="w-full min-h-screen">
             <div className="">
@@ -94,7 +96,13 @@ const About = () => {
                                     </div>
                                 </div>
                                 <div className="px-4 pb-4 md:px-10">
-                                    <button className="w-full bg-green-600 text-white px-4 py-1.5 md:py-2 rounded-full text-sm md:text-base mt-10">
+                                    <button
+                                        onClick={() => {
+    navigate("/roadmap");
+    window.scrollTo(0, 0); // Scrolls to the top
+}}
+                                        className="w-full bg-green-600 text-white px-4 py-1.5 md:py-2 rounded-full text-sm md:text-base mt-10"
+                                    >
                                         Buy YOBBO
                                     </button>{" "}
                                 </div>
@@ -239,9 +247,9 @@ const AboutSectionFour = () => {
                     <p className="text-base md:text-lg lg:text-xl xl:text-2xl">
                         The coolest part is that you may play with your{" "}
                         <strong>YOBBO</strong>
-                        and earn <strong>YOBBO</strong> coin
-                        by staking it. How infrequent they are and how
-                        frequently you play have a direct impact on the amount
+                        and earn <strong>YOBBO</strong> coin by staking it. How
+                        infrequent they are and how frequently you play have a
+                        direct impact on the amount
                     </p>
                 </div>
             </div>

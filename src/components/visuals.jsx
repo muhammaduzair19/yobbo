@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Visuals = () => {
+    const navigate = useNavigate()
     return (
         <section className="w-full min-h-screen">
             <div className="px-7 py-8 md:px-10 lg:px-16 lg:py-16 md:py-10">
@@ -25,7 +27,10 @@ const Visuals = () => {
                                 YOBBO that currently exists
                             </p>
                         </div>
-                        <button className="bg-green-500 text-white px-4 py-1.5 md:py-2 rounded-lg text-sm md:text-base mt-5">
+                        <button onClick={() => {
+    navigate("/roadmap");
+    window.scrollTo(0, 0); // Scrolls to the top
+}} className="bg-green-500 text-white px-4 py-1.5 md:py-2 rounded-lg text-sm md:text-base mt-5">
                             Buy YOBBO
                         </button>
                     </div>

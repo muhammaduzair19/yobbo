@@ -1,7 +1,9 @@
 import { Maximize, Volume2, VolumeIcon } from "lucide-react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+    const navigate = useNavigate()
     return (
         <section className="w-full min-h-[calc(100vh - 4rem)] flex flex-col gap-10">
             <div className="w-full max-md:h-1/2 h-screen flex items-center flex-col md:justify-center">
@@ -22,7 +24,10 @@ const Hero = () => {
                     <p className="text-sm md:text-base">
                         The lovable New collectible series Of YOBBO
                     </p>
-                    <button className="bg-green-600 text-white px-4 py-1.5 md:py-2 rounded-lg text-sm md:text-base">
+                    <button onClick={() => {
+    navigate("/roadmap");
+    window.scrollTo(0, 0); // Scrolls to the top
+}} className="bg-green-600 text-white px-4 py-1.5 md:py-2 rounded-lg text-sm md:text-base">
                         Buy YOBBO
                     </button>
                 </div>
