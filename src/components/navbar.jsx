@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
         <nav className="w-full bg-black h-16">
             <div className=" w-full flex justify-between items-center py-1.5 px-2 md:px-4">
-                <div>
+                <Link to={"/"}>
                     <img
                         className="w-12"
                         src="/images/y.svg"
                         alt="Yobbo Y Icon"
                     />
-                </div>
+                </Link>
                 <div className="flex items-center gap-4">
                     <button className="bg-green-500 text-white px-4 py-1.5 md:py-2 rounded-lg text-sm md:text-base">
                         Buy YOBBO

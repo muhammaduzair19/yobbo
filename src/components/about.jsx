@@ -152,17 +152,17 @@ const AboutSectionTwo = () => {
             <div className="w-full">
                 <div className="w-full flex items-end justify-end">
                     <p className="text-base md:text-lg lg:text-xl xl:text-2xl self-end md:w-[600px]">
-                        Each <span className="font-bold">YOBBO</span> is a
-                        unique <span className="font-bold">ERC 721</span> with
-                        randomized qualities that reflect their character. The
-                        inaugural series will only include 7,000 characters
+                        Each <strong>YOBBO</strong> is a unique{" "}
+                        <strong>ERC 721</strong> with randomized qualities that
+                        reflect their character. The inaugural series will only
+                        include 7,000 characters
                     </p>
                 </div>
                 <div className="relative mt-20">
                     <div className="w-full flex items-center justify-center">
                         <img
                             className="object-contain w-full h-full"
-                            src="/images/cloud2.png"
+                            src="/images/cloud2.svg"
                             alt=""
                         />
                     </div>
@@ -176,9 +176,9 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="md:w-[600px] max-sm:mt-5">
                     <p className="text-base md:text-lg lg:text-xl xl:text-2xl">
-                        For <span className="font-bold">0.037 ETH</span>, anyone
-                        may buy a YOBBO. Once all of the YOBBO have been sold,
-                        rarities will begin to disclosed
+                        For <strong>0.037 ETH</strong>, anyone may buy a YOBBO.
+                        Once all of the YOBBO have been sold, rarities will
+                        begin to disclosed
                     </p>
                 </div>
             </div>
@@ -191,10 +191,9 @@ const AboutSectionThree = () => {
             <div className="w-full">
                 <div className="w-full flex items-end justify-end">
                     <p className="text-base md:text-lg lg:text-xl xl:text-2xl self-end md:w-[600px]">
-                        <span className="font-bold">YOBBO</span> will be
-                        playable characters in YOBBOVERSE. There are also other
-                        utilities, such as in-game advantages in{" "}
-                        <span className="font-bold">YOBBO</span>.
+                        <strong>YOBBO</strong> will be playable characters in
+                        YOBBOVERSE. There are also other utilities, such as
+                        in-game advantages in <strong>YOBBO</strong>.
                     </p>
                 </div>
                 <div className="relative mt-20">
@@ -224,24 +223,23 @@ const AboutSectionFour = () => {
             <div className="w-full flex flex-col gap-10">
                 <div className="md:w-[600px] max-sm:mt-5">
                     <p className="text-base md:text-lg lg:text-xl xl:text-2xl">
-                        Creation of <span className="font-bold">YOBBO</span>{" "}
-                        aims to have the finest community possible. So we wanted
-                        to make a character series that our community could
-                        accept and use
+                        Creation of <strong>YOBBO</strong> aims to have the
+                        finest community possible. So we wanted to make a
+                        character series that our community could accept and use
                     </p>
                 </div>
                 <div className="w-full flex items-end justify-end">
                     <p className="text-base md:text-lg lg:text-xl xl:text-2xl self-end md:w-[600px]">
                         Official Merch Store Will Be Released to All Current
                         hodlers with Access to Hight-Quality Merch Related To
-                        <span className="font-bold">YOBBO</span> Brand
+                        <strong>YOBBO</strong> Brand
                     </p>
                 </div>
                 <div className="md:w-[600px] max-sm:mt-5">
                     <p className="text-base md:text-lg lg:text-xl xl:text-2xl">
                         The coolest part is that you may play with your{" "}
-                        <span className="font-bold">YOBBO</span>
-                        and earn <span className="font-bold">YOBBO</span> coin
+                        <strong>YOBBO</strong>
+                        and earn <strong>YOBBO</strong> coin
                         by staking it. How infrequent they are and how
                         frequently you play have a direct impact on the amount
                     </p>

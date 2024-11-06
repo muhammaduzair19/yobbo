@@ -1,21 +1,20 @@
 import React from "react";
+import Footer from "./components/footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home";
+import Roadmap from "./pages/roadmap";
 import Navbar from "./components/navbar";
-import Hero from "./components/hero";
-import About from "./components/about";
-import Visuals from "./components/visuals";
-import WhenBanner from "./components/when-banner";
-import Community from "./components/community";
 
 const App = () => {
     return (
-        <div className="w-full min-h-screen bg-[#C4BDA5] overflow-hidden">
+        <BrowserRouter>
             <Navbar />
-            <Hero />
-            <About />
-            <Visuals />
-            <WhenBanner />
-            <Community />
-        </div>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/roadmap" element={<Roadmap />} />
+            </Routes>
+            <Footer />
+        </BrowserRouter>
     );
 };
 

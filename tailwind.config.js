@@ -5,6 +5,7 @@ export default {
         extend: {
             fontFamily: {
                 pixelify: ["Pixelify Sans"],
+                roboto: ["Roboto"],
             },
         },
     },

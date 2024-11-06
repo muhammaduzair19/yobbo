@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="md:-mt-32 max-sm:mt-10">
                     <img
                         className="w-72 md:w-[500px]"
-                        src="/images/logo-yobbo.png"
+                        src="/images/logo-yobbo.svg"
                         alt=""
                     />
                 </div>
