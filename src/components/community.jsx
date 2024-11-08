@@ -28,23 +28,23 @@ const Community = () => {
                                 <span className="w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 bg-[#FCCB25] rounded-lg">
                                     <img
                                         src="/images/people1.svg"
-                                        alt=""
+                                        alt="person"
                                         className="bg-blend-color-dodge"
                                     />
                                 </span>
                                 <span className="w-16 md:w-28">
-                                    <img src="/images/discord1.svg" alt="" />
+                                    <img src="/images/discord1.svg" alt="Discord Logo" />
                                 </span>
                                 <span className="flex gap-10 relative">
                                     <span className="w-16 md:w-28 absolute -left-20 md:-left-32">
                                         <img
                                             src="/images/discord2.svg"
-                                            alt=""
+                                            alt="Discord Logo"
                                         />
                                     </span>
 
                                     <span className="w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 bg-[#EF902D] rounded-lg">
-                                        <img src="/images/people2.svg" alt="" />
+                                        <img src="/images/people2.svg" alt="Person" />
                                     </span>
                                 </span>
                             </div>
@@ -52,13 +52,13 @@ const Community = () => {
                                 <span className="w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 bg-[#79CBEE] rounded-lg">
                                     <img
                                         src="/images/people3.svg"
-                                        alt=""
+                                        alt="Person"
                                         className="bg-blend-color-dodge"
                                     />
                                 </span>
 
                                 <span className="w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 bg-[#FCCB25] rounded-lg">
-                                    <img src="/images/people4.svg" alt="" />
+                                    <img src="/images/people4.svg" alt="Person" />
                                 </span>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Community = () => {
                             <img
                                 className="w-72 md:w-80 lg:w-96 "
                                 src="/images/guy.svg"
-                                alt=""
+                                alt="Character"
                             />
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const Community = () => {
                         </button>
                     </div>
                     <div>
-                        <img src="/images/character-3.svg" alt="" />
+                        <img src="/images/character-3.svg" alt="Character" />
                     </div>
                 </div>
             </div>

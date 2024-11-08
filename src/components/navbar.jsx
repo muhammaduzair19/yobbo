@@ -25,7 +25,7 @@ const Navbar = () => {
                             <img
                                 className="w-12"
                                 src="https://s3-alpha-sig.figma.com/img/89fe/31c7/9df8fb6bbfd99db1cb18960fb1e8e0e1?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XWThAV6NjpZattuS6NVKQ4QPRl1VyD1pgyWfvpSanSsmiLjYzFNj-jBUA9EAmbDd4S5KCsH-eW3NvPLicwx-M4rCM9pnrYk6xf7O-0h2RxteGbKJYJyufn~3h-kvCBxy83hlQ4Xs5LS8JBLgdQD4fKVOrHdJX557I62tCdP9L-jGQy6JkKbhLZLZyUeITb1Ahpgqcb6VbXlngzZmZ-IAHBjyc-FNEyusayHEREWqsxfFW8JEp4359mbrXs2ObB7Iuy7IWlMvvwzQjWFZauL8e6Pnpen3NwfdTq5Yn8wrwNzYnPYA4WiUdsAUV0AcB3IQxVoX0nPVktvoIKzqnRO8nw__"
-                                alt=""
+                                alt="User Image"
                             />
                         </div>
                         <div className="flex flex-col justify-center">

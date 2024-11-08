@@ -1,5 +1,4 @@
-import { ChevronDown, ChevronUp } from "lucide-react";
-import React, { useState } from "react";
+import React from "react";
 import FaqCard from "./faq-card";
 
 const faqs = [

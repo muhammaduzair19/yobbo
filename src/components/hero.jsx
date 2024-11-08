@@ -11,11 +11,11 @@ const Hero = () => {
                     <img
                         className="w-72 md:w-[500px]"
                         src="/images/logo-yobbo.svg"
-                        alt=""
+                        alt="Logo Yobbo"
                     />
                 </div>
                 <div className="h-96 overflow-hidden max-sm:-mt-20 ">
-                    <img className="h-96" src="/images/hero-char.svg" alt="" />
+                    <img className="h-96" src="/images/hero-char.svg" alt="Characters" />
                 </div>
                 <div className="flex flex-col gap-5 items-center max-sm:-mt-20 md:mt-0 justify-center px-4">
                     <p className="font-pixelify text-2xl md:text-4xl font-bold text-center">
@@ -43,7 +43,7 @@ const Hero = () => {
                 <img
                     className="h-full w-full object-cover bg-center"
                     src="/images/hero-video.svg"
-                    alt=""
+                    alt="Video Image"
                 />
             </div>
         </section>

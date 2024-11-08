@@ -10,7 +10,7 @@ const Visuals = () => {
                     <img
                         className="object-contain"
                         src="/images/visual.svg"
-                        alt=""
+                        alt="Visual Image"
                     />
                 </div>
                 <div className="flex flex-col gap-20 md:flex-row justify-between  items-center mt-10">
@@ -35,7 +35,7 @@ const Visuals = () => {
                         </button>
                     </div>
                     <div className="w-full md:max-w-[500px]">
-                      <img src="/images/character2.svg" alt="" />
+                      <img src="/images/character2.svg" alt="Character" />
                     </div>
                 </div>
             </div>

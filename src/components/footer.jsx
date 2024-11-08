@@ -9,7 +9,7 @@ const Footer = () => {
                         <img
                             className="w-32 sm:w-44 md:w-52 lg:w-64 xl:w-72"
                             src="/images/logo-yobbo.svg"
-                            alt=""
+                            alt="Logo Yobbo"
                         />
                         <p className="uppercase font-bold text-sm md:text-lg lg:text-xl xl:text-2xl mt-2 md:mt-4 mx-2 md:mx-4 tracking-tighter ">
                             POWERED BY YOBBO

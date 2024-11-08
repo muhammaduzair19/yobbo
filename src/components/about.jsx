@@ -8,7 +8,7 @@ const About = () => {
         <section className="w-full min-h-screen">
             <div className="">
                 <div className="w-full bg-[#C7C2B5] flex items-center justify-center">
-                    <img src="/images/cube.svg" alt="" className="" />
+                    <img src="/images/cube.svg" alt="Cube" className="" />
                 </div>
                 <div className="w-full h-full px-7 py-8 md:px-10 lg:px-16 lg:py-16 md:py-10">
                     <div className="flex flex-col gap-20 md:flex-row justify-between  items-center">
@@ -138,14 +138,14 @@ const AboutSectionOne = () => {
                         <img
                             className=" object-contain w-full h-full"
                             src="/images/cloud1.svg"
-                            alt=""
+                            alt="Clouds"
                         />
                     </div>
                     <div className=" w-full absolute top-0 sm:top-10 md:top-12 left-[30%] sm:left-[33%] md:left-[35%]">
                         <img
                             className="w-28 sm:w-48 md:w-52 lg:w-64 xl:w-80"
                             src="/images/character.svg"
-                            alt=""
+                            alt="Character"
                         />
                     </div>
                 </div>
@@ -171,14 +171,14 @@ const AboutSectionTwo = () => {
                         <img
                             className="object-contain w-full h-full"
                             src="/images/cloud2.svg"
-                            alt=""
+                            alt="Cloud"
                         />
                     </div>
                     <div className="absolute top-0  md:top-12 right-[8%] sm:right-[12%] md:right-[15%] lg:right-[20%]">
                         <img
                             className="w-16 sm:w-28 md:w-44 lg:w-52"
                             src="/images/bird.svg"
-                            alt=""
+                            alt="Bird"
                         />
                     </div>
                 </div>
@@ -209,14 +209,14 @@ const AboutSectionThree = () => {
                         <img
                             className=" object-contain w-full h-full"
                             src="/images/cloud3.svg"
-                            alt=""
+                            alt="Cloud"
                         />
                     </div>
                     <div className="absolute top-4 sm:top-1/2 md:top-1/3 left-0">
                         <img
                             className="w-28 sm:w-52 md:w-72 lg:w-72 xl:w-96"
                             src="/images/dragon.svg"
-                            alt=""
+                            alt="Dragon"
                         />
                     </div>
                 </div>
@@ -266,14 +266,14 @@ const AboutSectionFive = () => {
                         <img
                             className=" object-contain w-full h-full"
                             src="/images/cloud4.svg"
-                            alt=""
+                            alt="Cloud"
                         />
                     </div>
                     <div className="absolute left-1/2 top-1/3  -translate-x-1/2 -translate-y-1/2">
                         <img
                             className="w-10 ml-12 sm:ml-20 md:ml-36 sm:w-16 md:w-24 lg:w-44"
                             src="/images/sword.svg"
-                            alt=""
+                            alt="Sword"
                         />
                     </div>
                 </div>

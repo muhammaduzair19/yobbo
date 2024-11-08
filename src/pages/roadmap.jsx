@@ -54,14 +54,14 @@ const Roadmap = () => {
                             <img
                                 className="w-72 md:w-[500px]"
                                 src="/images/roadmap.svg"
-                                alt=""
+                                alt="Roadmap Image"
                             />
                         </div>
                         <div className=" overflow-hidden max-sm:-mt-20 ">
                             <img
                                 className="h-96"
                                 src="/images/hero-char.svg"
-                                alt=""
+                                alt="Characters"
                             />
                         </div>
                     </div>

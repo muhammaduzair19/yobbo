@@ -1,4 +1,4 @@
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { Minus, Plus } from "lucide-react";
 import React, { useState } from "react";
 
 const FaqCard = ({ faq }) => {
@@ -21,15 +21,9 @@ const FaqCard = ({ faq }) => {
                     <span>{faq.question}</span>
                     <button onClick={() => QuestionsOpenHandler(faq.id)}>
                         {questionsOpen.includes(faq.id) ? (
-                            <ChevronUp
-                                strokeWidth={2}
-                                className="cursor-pointer"
-                            />
+                            <Minus strokeWidth={2} className="cursor-pointer" />
                         ) : (
-                            <ChevronDown
-                                strokeWidth={2}
-                                className="cursor-pointer"
-                            />
+                            <Plus strokeWidth={2} className="cursor-pointer" />
                         )}
                     </button>
                 </p>
